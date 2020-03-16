@@ -1,0 +1,17 @@
+package Bootcamp;
+
+public class AsciiValues {
+	
+	 
+	
+	    public static void main(String args[]) {
+	        int i;
+	        for(i = 0; i < 26; i++){
+	        	//print Ascii values in lower case
+	            System.out.println((char)('a'+i) + " --> " + ('a'+i));
+	             
+	         }
+	    }
+	}
+
+
