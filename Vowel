@@ -1,0 +1,28 @@
+package Bootcamp;
+import java.util.Scanner;
+public class Vowel
+{
+	public static void main(String args[])
+	{
+	char ch= '1';
+	switch(ch){
+	case 'a':
+	case 'e':
+	case 'i':
+	case 'o':
+	case 'u':
+		System.out.println(ch + " is vowel");
+		break;
+	default:
+		if(ch==0)
+		{
+			System.out.println("is a vowel");
+		}
+		else
+		{
+			System.out.println(ch +  " is a wrong data");
+		}
+	
+	}
+	}
+}
